@@ -146,7 +146,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-border pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-muted-foreground text-sm">
-            © {currentYear} Phen AI. All rights reserved.
+            © 2023-{currentYear} Phen AI. All rights reserved.
           </p>
           <button
             onClick={scrollToTop}
