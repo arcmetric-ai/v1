@@ -36,7 +36,7 @@ export default function Contact() {
           <div className="max-w-5xl mx-auto rounded-2xl overflow-hidden mb-20">
             <div
               className="calendly-inline-widget"
-              data-url="https://calendly.com/hari-hiphen/30min?hide_gdpr_banner=1"
+              data-url="https://calendly.com/arcmetric-ai/30min?hide_gdpr_banner=1"
               style={{
                 minWidth: "100%",
                 height: "700px",
