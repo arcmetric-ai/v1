@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Link } from "wouter";
 
 /* -------- Headline & Assets -------- */
-const heroTexts = ["Phen AI", "Phenomenal AI"];
+const heroTexts = ["ArcMetric AI", "Master the AI Curve"];
 
 const IMAGES = [
   "/images/Hero (1).png",
