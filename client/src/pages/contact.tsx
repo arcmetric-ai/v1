@@ -60,7 +60,7 @@ export default function Contact() {
               <Mail className="w-10 h-10 text-primary mb-4" />
               <h3 className="font-semibold mb-2">Email</h3>
               <a
-                href="mailto:info@hiphen.ai"
+                href="mailto:info@arcmetric.ai"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
                 info@arcmetric.ai
