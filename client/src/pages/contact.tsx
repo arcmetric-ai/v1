@@ -67,23 +67,7 @@ export default function Contact() {
               </a>
             </motion.div>
 
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.1 }}
-              viewport={{ once: true }}
-              className="glass-strong rounded-xl p-6"
-            >
-              <Phone className="w-10 h-10 text-primary mb-4" />
-              <h3 className="font-semibold mb-2">Phone</h3>
-              <a
-                href="tel:+14378891457"
-                className="text-muted-foreground hover:text-primary transition-colors"
-              >
-                +1 (437) 889-1457
-              </a>
-            </motion.div>
-
+           
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
