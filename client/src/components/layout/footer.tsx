@@ -117,7 +117,7 @@ export default function Footer() {
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="https://x.com/arcmetric-ai"
+                href="https://x.com/arcmetricai"
                 className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
                 aria-label="Twitter"
               >
