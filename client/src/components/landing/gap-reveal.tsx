@@ -128,7 +128,7 @@ export default function GapReveal() {
           className="text-[11vw] sm:text-7xl lg:text-8xl xl:text-9xl font-serif font-black  tracking-tighter text-black"
           style={{ letterSpacing: '-0.02em' }}
         >
-          Phen AI
+          ArcMetric AI
         </h2>
       </div>
 
