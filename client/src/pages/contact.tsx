@@ -63,7 +63,7 @@ export default function Contact() {
                 href="mailto:info@hiphen.ai"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
-                info@hiphen.ai
+                info@arcmetric.ai
               </a>
             </motion.div>
 
