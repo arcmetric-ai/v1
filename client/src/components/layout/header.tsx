@@ -52,11 +52,11 @@ export default function Header() {
             <div className=" rounded-lg flex items-center justify-center overflow-hidden">
               <img
                    src="/images/12.gif"  // <-- place your GIF in /public and use this path
-                    alt="Phen AI Logo"
+                    alt="ArcMetric AI Logo"
                     className="w-16 h-16 object-contain"
               />
             </div>
-              <span className="text-xl font-serif font-semibold">Phen AI</span>
+              <span className="text-xl font-serif font-semibold">ArcMetric AI</span>
            </Link>
 
           {/* Desktop Navigation */}
