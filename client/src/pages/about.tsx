@@ -49,7 +49,7 @@ export default function About() {
   }, []);
 
   const timeline = [
-    { year: "2023", title: "Foundation", description: "Phen AI was founded with a mission to make AI accessible and practical for enterprises across industries." },
+    { year: "2023", title: "Foundation", description: "ArcMetric AI was founded with a mission to make AI accessible and practical for enterprises across industries." },
     { year: "2024", title: "First Major Client", description: "Deployed our first large-scale AI solution for agricultural crop monitoring, achieving 94% accuracy in disease detection." },
     { year: "2025", title: "VR/AR Expansion", description: "Launched immersive training platform for healthcare professionals, revolutionizing medical education." },
     { year: "2025", title: "On-Premise Solutions", description: "Pioneered secure, on-premise AI deployments for regulated industries including legal and finance sectors." },
@@ -72,10 +72,10 @@ export default function About() {
           {/* HERO (no box) */}
           <section className="mb-16 text-center">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold">
-              About Phen AI
+              About ArcMetric AI
             </h1>
             <p className="mt-4 text-lg sm:text-xl text-foreground/80 max-w-3xl mx-auto">
-              At Phen AI, we believe artificial intelligence isn’t just a tool — it’s a
+              At ArcMetric AI, we believe artificial intelligence isn’t just a tool — it’s a
               turning point in how humanity works, learns, and creates.
             </p>
           </section>
@@ -88,7 +88,7 @@ export default function About() {
                   Our journey began with a clear vision: to make the power of AI accessible, purposeful, and profoundly human. What started as a small team of innovators and designers with a shared obsession for intelligent systems has evolved into a company building the next generation of digital transformation — one solution at a time.
                 </p>
                 <p className="text-lg sm:text-xl leading-relaxed text-foreground/80">
-                  We design intelligent ecosystems — not just chatbots or automations, but connected experiences that think, adapt, and scale with the people they serve. From AI-powered customer engagement to workflow automation and immersive training environments, Phen AI bridges creativity, logic, and technology into something truly transformational.
+                  We design intelligent ecosystems — not just chatbots or automations, but connected experiences that think, adapt, and scale with the people they serve. From AI-powered customer engagement to workflow automation and immersive training environments, ArcMetric AI bridges creativity, logic, and technology into something truly transformational.
                 </p>
                 <p className="text-lg sm:text-xl leading-relaxed text-foreground/80">
                   Across industries like agriculture, education, finance, legal, renewables, and supply chain, we help organizations use AI as a catalyst for efficiency, insight, and imagination.
@@ -100,7 +100,7 @@ export default function About() {
           {/* TEAM (heading OUTSIDE the box) */}
           <section className="mb-20">
             <h2 className="text-3xl font-serif font-semibold text-center mb-8">
-              The Team Behind Phen AI
+              The Team Behind ArcMetric AI
             </h2>
             {/* ❗️Keep glass classes on the DIV below, NOT on the section */}
             <div className="glass-strong rounded-xl sm:rounded-2xl max-w-5xl mx-auto p-8 sm:p-12 backdrop-blur-md ring-1 bg-black/5 ring-black/10 dark:bg-white/5 dark:ring-white/10">
@@ -140,7 +140,7 @@ export default function About() {
               </div>
 
               <p className="mt-10 text-center text-base sm:text-lg text-foreground/80 max-w-3xl mx-auto">
-                Phen AI stands at the intersection of intelligence and intuition — where automation meets artistry, and data meets design. We’re not just building AI solutions; we’re building a future where technology understands people as deeply as people understand purpose.
+                ArcMetric AI stands at the intersection of intelligence and intuition — where automation meets artistry, and data meets design. We’re not just building AI solutions; we’re building a future where technology understands people as deeply as people understand purpose.
               </p>
             </div>
           </section>
