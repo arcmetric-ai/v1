@@ -1,29 +1,91 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en-CA" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-    <meta name="description" content="We design intelligence you can trust—elegant systems that deliver measurable value. Your engineering partner for lasting impact.">
+
+    <!-- Primary Meta Tags -->
+    <title>ArcMetric AI – AI for Renewables, Agriculture & Enterprise VR</title>
+    <meta
+      name="description"
+      content="ArcMetric AI builds industry-grade AI systems for agriculture and renewables, including crop disease detection, yield prediction, weather forecasting, smart energy allocation, and VR solutions for training and operations across all sectors."
+    />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.arcmetric.ai/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="ArcMetric AI" />
+    <meta property="og:title" content="ArcMetric AI – Applied AI for Renewables, Agriculture & VR" />
+    <meta
+      property="og:description"
+      content="ArcMetric AI delivers AI-powered crop disease detection, seasonal yield prediction, renewable energy forecasting, smart grid allocation, and enterprise VR systems for training, simulation, and operations."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.arcmetric.ai/" />
+    <meta property="og:image" content="https://www.arcmetric.ai/og-image.jpg" />
+    <meta property="og:locale" content="en_CA" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ArcMetric AI – AI Systems for Industry & VR" />
+    <meta
+      name="twitter:description"
+      content="AI for agriculture and renewable energy, plus VR-based training and simulation across all industries."
+    />
+    <meta name="twitter:image" content="https://www.arcmetric.ai/og-image.jpg" />
+
+    <!-- Optional Geo-specific Tags -->
+    <meta name="geo.region" content="CA-ON" />
+    <meta name="geo.placename" content="North York" />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "ArcMetric AI",
+      "url": "https://www.arcmetric.ai",
+      "logo": "https://www.arcmetric.ai/logo.png",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "North York",
+        "addressRegion": "Ontario",
+        "postalCode": "M6A 0B3",
+        "addressCountry": "CA"
+      },
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Ontario, Canada"
+      }
+    }
+    </script>
+
+    <!-- Dark/Light Mode Script -->
     <script>
       (function () {
-      // default to light on first visit
-      var t = localStorage.getItem('theme') || 'light';
-      document.documentElement.classList.add(t);
+        // default to light on first visit
+        var t = localStorage.getItem('theme') || 'light';
+        document.documentElement.classList.add(t);
       })();
     </script>
 
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- GSAP -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/MotionPathPlugin.min.js"></script>
   </head>
+
   <body>
     <div id="root"></div>
-  <script type="module" src="/src/main.tsx"></script>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
