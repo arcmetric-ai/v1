@@ -119,21 +119,21 @@ export default function Footer() {
 
             <div className="flex gap-4 mt-6">
               <a
-                href="https://www.linkedin.com/company/phen-ai/"
+                href="https://www.linkedin.com/company/placeholder12345/"
                 className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="https://x.com/hiphenai"
+                href="https://x.com/arcmetric-ai"
                 className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
                 aria-label="Twitter"
               >
                 <Twitter className="w-5 h-5" />
               </a>
               <a
-                href="https://www.instagram.com/hiphenai/"
+                href="https://www.instagram.com/arcmetricai/"
                 className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
                 aria-label="Instagram"
               >
