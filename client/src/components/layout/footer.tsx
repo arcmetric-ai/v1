@@ -91,20 +91,11 @@ export default function Footer() {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="mailto:hello@phenai.com"
+                  href="mailto:info@arcmetric.ai"
                   className="text-muted-foreground hover:text-foreground transition-colors flex items-center gap-2"
                 >
                   <Mail className="w-5 h-5" />
-                  info@hiphen.ai
-                </a>
-              </li>
-              <li>
-                <a
-                  href="tel:+1234567890"
-                  className="text-muted-foreground hover:text-foreground transition-colors flex items-center gap-2"
-                >
-                  <Phone className="w-5 h-5" />
-                  +1 (437) 889-1457
+                  info@arcmetric.ai
                 </a>
               </li>
               <li className="text-muted-foreground flex items-start gap-2">
