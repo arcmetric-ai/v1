@@ -1,4 +1,4 @@
-import { useEffect, useLayoutEffect, useRef, useState } from "react";
+uimport { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Link } from "wouter";
 
@@ -13,7 +13,6 @@ const IMAGES = [
   "/images/Hero (5).png",
   "/images/Hero (6).png",
   "/images/Hero (7).png",
-  "/images/Hero (8).png",
 ];
 
 declare global {
