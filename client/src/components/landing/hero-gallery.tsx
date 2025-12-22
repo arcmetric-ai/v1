@@ -12,7 +12,7 @@ const IMAGES = [
   "/images/Hero (4).png",
   "/images/Hero (5).png",
   "/images/Hero (6).png",
-  "/images/Hero (7).png",
+  "/images/Hero (7).png"
 ];
 
 declare global {
