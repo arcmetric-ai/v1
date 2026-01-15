@@ -78,7 +78,7 @@ export default function Contact() {
               <MapPin className="w-10 h-10 text-primary mb-4" />
               <h3 className="font-semibold mb-2">Address</h3>
               <p className="text-muted-foreground">
-                Ontario, Canada
+                120 Adelaide St West, Toronto, Ontario, Canada
                 <br />
                 Proudly Canadian
               </p>
