@@ -1,4 +1,4 @@
-by import { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "wouter";
 import { Mail, Phone, MapPin, Linkedin, Twitter, Github, Instagram, X } from "lucide-react";
 export default function Footer() {
@@ -101,7 +101,7 @@ export default function Footer() {
               <li className="text-muted-foreground flex items-start gap-2">
                 <MapPin className="w-5 h-5 mt-0.5" />
                 <span>
-                  120 Adelaide St W.
+                  120 Adelaide St W
                   <br />
                   Ontario, Canada
                 </span>
